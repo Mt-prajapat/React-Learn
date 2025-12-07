@@ -1,0 +1,157 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+body{
+  background-color: rgb(17, 17, 17);
+}
+
+.card{
+  background-color: red;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+.nav{
+  background-color: blueviolet;
+  margin: 5px;
+  padding: 20px;
+  color: #fff;
+}
+.prachapter{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 20px;
+}
+.chapter2{
+  margin-top: 20px;
+  border: 1px solid rgb(255, 252, 252);
+  width: 350px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #222;
+  color: #fff;
+}
+.chapter2 img{
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+  margin: 20px;
+}
+.chapter2 p{
+  margin:20px 0;
+}
+.chapter2 button{
+  padding: 10px 20px;
+  background-color: white;
+  color:black;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.chapter3{
+  color: #111;
+  padding: 30px;
+  gap: 30px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.card1{
+  height: 330px;
+  width: 280px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card1 .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.top img{
+  height: 37px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+
+.center h3{
+  font-size: 17px;
+  font-weight: 500;
+}
+.center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+.center h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.center .tag{
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+.center .tag h4{
+  font-size: 10px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #c7c7c7;
+  padding-top: 15px;
+}
+
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  column-width: 600;
+  cursor: pointer;
+}
+
+.bottom h3{
+  font-size: 17px;
+}
+.bottom p{
+  font-size: 10px;
+  color: #8b8b8b;
+}
+

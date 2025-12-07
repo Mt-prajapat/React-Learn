@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+body{
+  background-color: #222;
+}
+input{
+  margin: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  font-size: 15px;
+}
+button{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
